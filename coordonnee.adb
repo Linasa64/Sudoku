@@ -8,12 +8,16 @@ package body Coordonnee is
    function construireCoordonnees
      (ligne : Integer; colonne : Integer) return Type_Coordonnee
    is
+      c: Type_Coordonnee;
+
    begin
-      pragma Compile_Time_Warning
-        (Standard.True, "construireCoordonnees unimplemented");
-      return
-        raise Program_Error
-          with "Unimplemented function construireCoordonnees";
+
+      c.ligne := ligne;
+      c.colonne := colonne;
+
+      return c;
+
+
    end construireCoordonnees;
 
    ------------------
@@ -22,9 +26,10 @@ package body Coordonnee is
 
    function obtenirLigne (c : Type_Coordonnee) return Integer is
    begin
-      pragma Compile_Time_Warning
-        (Standard.True, "obtenirLigne unimplemented");
-      return raise Program_Error with "Unimplemented function obtenirLigne";
+
+      return c.ligne;
+
+
    end obtenirLigne;
 
    --------------------
@@ -33,9 +38,9 @@ package body Coordonnee is
 
    function obtenirColonne (c : Type_Coordonnee) return Integer is
    begin
-      pragma Compile_Time_Warning
-        (Standard.True, "obtenirColonne unimplemented");
-      return raise Program_Error with "Unimplemented function obtenirColonne";
+
+      return c.colonne;
+
    end obtenirColonne;
 
    ------------------
@@ -43,10 +48,59 @@ package body Coordonnee is
    ------------------
 
    function obtenirCarre (c : Type_Coordonnee) return Integer is
+
+      numCarre : Integer;
+
    begin
-      pragma Compile_Time_Warning
-        (Standard.True, "obtenirCarre unimplemented");
-      return raise Program_Error with "Unimplemented function obtenirCarre";
+
+      if 1 <= c.ligne and c.ligne <= 3 and 1 <= c.colonne and c.colonne <= 3 then
+         numCarre:=1;
+
+      end if;
+
+      if 1 <= c.ligne and c.ligne <= 3 and 4 <= c.colonne and c.colonne <= 6 then
+         numCarre:=2;
+
+      end if;
+
+      if 1 <= c.ligne and c.ligne <= 3 and 7 <= c.colonne and c.colonne <= 9 then
+         numCarre:=3;
+
+      end if;
+
+      if 4 <= c.ligne and c.ligne <= 6 and 1 <= c.colonne and c.colonne <= 3 then
+         numCarre:=4;
+
+      end if;
+
+      if 4 <= c.ligne and c.ligne <= 6 and 4 <= c.colonne and c.colonne <= 6 then
+         numCarre:=5;
+
+      end if;
+
+      if 4 <= c.ligne and c.ligne <= 6 and 7 <= c.colonne and c.colonne <= 9 then
+         numCarre:=6;
+
+      end if;
+
+      if 7 <= c.ligne and c.ligne <= 9 and 1 <= c.colonne and c.colonne <= 3 then
+         numCarre:=7;
+
+      end if;
+
+      if 7 <= c.ligne and c.ligne <= 9 and 4 <= c.colonne and c.colonne <= 6 then
+         numCarre:=8;
+
+      end if;
+
+      if 7 <= c.ligne and c.ligne <= 9 and 7 <= c.colonne and c.colonne <= 9 then
+         numCarre:=9;
+
+      end if;
+
+   return numCarre;
+
+
    end obtenirCarre;
 
    ----------------------------
@@ -55,12 +109,56 @@ package body Coordonnee is
 
    function obtenirCoordonneeCarre (numCarre : Integer) return Type_Coordonnee
    is
+      ac: Type_Coordonnee;
    begin
-      pragma Compile_Time_Warning
-        (Standard.True, "obtenirCoordonneeCarre unimplemented");
-      return
-        raise Program_Error
-          with "Unimplemented function obtenirCoordonneeCarre";
+
+      if numCarre = 1 then
+         ac.ligne := 1;
+         ac.colonne := 3;
+      end if;
+
+      if numCarre = 2 then
+         ac.ligne := 1;
+         ac.colonne := 6;
+      end if;
+
+      if numCarre = 3 then
+         ac.ligne := 1;
+         ac.colonne := 9;
+      end if;
+
+      if numCarre = 4 then
+         ac.ligne := 4;
+         ac.colonne := 3 ;
+      end if;
+
+      if numCarre = 5 then
+         ac.ligne := 4;
+         ac.colonne := 6;
+      end if;
+
+      if numCarre = 6 then
+         ac.ligne := 4;
+         ac.colonne := 9;
+      end if;
+
+      if numCarre = 7 then
+         ac.ligne := 7;
+         ac.colonne := 3;
+      end if;
+
+      if numCarre = 8 then
+         ac.ligne := 7;
+         ac.colonne := 6;
+      end if;
+
+      if numCarre = 9 then
+         ac.ligne := 7;
+         ac.colonne := 9;
+      end if;
+
+      return ac;
+
    end obtenirCoordonneeCarre;
 
 end Coordonnee;
