@@ -109,52 +109,52 @@ package body Coordonnee is
 
    function obtenirCoordonneeCarre (numCarre : Integer) return Type_Coordonnee
    is
-      ac: Type_Coordonnee;
+      ac: Type_Coordonnee; -- pour angle carré
    begin
 
       if numCarre = 1 then
          ac.ligne := 1;
-         ac.colonne := 3;
+         ac.colonne := 1;
       end if;
 
       if numCarre = 2 then
          ac.ligne := 1;
-         ac.colonne := 6;
+         ac.colonne := 4;
       end if;
 
       if numCarre = 3 then
          ac.ligne := 1;
-         ac.colonne := 9;
+         ac.colonne := 7;
       end if;
 
       if numCarre = 4 then
          ac.ligne := 4;
-         ac.colonne := 3 ;
+         ac.colonne := 1;
       end if;
 
       if numCarre = 5 then
          ac.ligne := 4;
-         ac.colonne := 6;
+         ac.colonne := 4;
       end if;
 
       if numCarre = 6 then
          ac.ligne := 4;
-         ac.colonne := 9;
+         ac.colonne := 7;
       end if;
 
       if numCarre = 7 then
          ac.ligne := 7;
-         ac.colonne := 3;
+         ac.colonne := 1;
       end if;
 
       if numCarre = 8 then
          ac.ligne := 7;
-         ac.colonne := 6;
+         ac.colonne := 4;
       end if;
 
       if numCarre = 9 then
          ac.ligne := 7;
-         ac.colonne := 9;
+         ac.colonne := 7;
       end if;
 
       return ac;

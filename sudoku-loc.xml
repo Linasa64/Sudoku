@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\Ensemble.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\ensemble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\Ensemble.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 28" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\ensemble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\Coordonnee.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\coordonnee.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 13" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\coordonnee.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\grillesudoku.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\grillesudoku.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 11" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\grillesudoku.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\resolutions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 13" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 52" line=" 51" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 203" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 9" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\run_all_tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 204" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 505" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\affichages_tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\run_all_tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 206" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 5" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 69" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 204" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 38" >
+      <vfs_project />
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 204" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 27" >
+      <vfs_project />
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\resolutions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 38" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 63" line=" 27" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\resolutions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 204" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 55" line=" 28" >
+      <vfs_project />
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\resolutions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 204" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 75" line=" 29" >
+      <vfs_project />
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\resolutions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 32" >
+      <vfs_project />
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\resolutions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 78" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 204" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 206" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 204" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 206" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 204" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 206" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 205" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 204" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 206" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 109" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 204" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\affichages_tests.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
