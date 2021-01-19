@@ -86,9 +86,8 @@ package body grilleSudoku is
    begin
       if caseVide(g, c) then
          raise VIDER_CASE_VIDE;
-      else
-         g(obtenirLigne(c), obtenirColonne(c)):=0;
       end if;
+      g(obtenirLigne(c), obtenirColonne(c)) := 0;
    end viderCase;
 
    ----------------
@@ -141,84 +140,21 @@ package body grilleSudoku is
    -----------------------------
 
    function obtenirChiffresDUnCarre
-     (g : in Type_Grille; numCarre : in Integer) return Type_Ensemble
+     (g        : in Type_Grille; numCarre : in Integer) return Type_Ensemble
    is
-      e:Type_Ensemble;
+      e: Type_Ensemble;
+      co: Type_Coordonnee;
    begin
-      if numCarre=1 then
-         for l in 1..3 loop
-            for c in 1..3 loop
-               if g(l, c) /= 0 then
-                  ajouterChiffre(e, g(l, c));
-               end if;
-            end loop;
+      e:=construireEnsemble;
+      co:= obtenirCoordonneeCarre(numCarre);
+
+      for l in 1..3 loop
+         for c in 1..3 loop
+            if not appartientChiffre(e, g(l + obtenirLigne(co)-1, c+obtenirColonne(co)-1)) then
+               ajouterChiffre(e, g(l + obtenirLigne(co)-1, c+obtenirColonne(co)-1));
+            end if;
          end loop;
-      elsif numCarre=2 then
-         for l in 1..3 loop
-            for c in 4..6 loop
-               if g(l, c) /= 0 then
-                  ajouterChiffre(e, g(l, c));
-               end if;
-            end loop;
-         end loop;
-      elsif numCarre=3 then
-         for l in 1..3 loop
-            for c in 6..9 loop
-               if g(l, c) /= 0 then
-                  ajouterChiffre(e, g(l, c));
-               end if;
-            end loop;
-         end loop;
-      elsif numCarre=4 then
-         for l in 4..6 loop
-            for c in 1..3 loop
-               if g(l, c) /= 0 then
-                  ajouterChiffre(e, g(l, c));
-               end if;
-            end loop;
-         end loop;
-      elsif numCarre=5 then
-         for l in 4..6 loop
-            for c in 4..6 loop
-               if g(l, c) /= 0 then
-                  ajouterChiffre(e, g(l, c));
-               end if;
-            end loop;
-         end loop;
-      elsif numCarre=6 then
-         for l in 4..9 loop
-            for c in 7..9 loop
-               if g(l, c) /= 0 then
-                  ajouterChiffre(e, g(l, c));
-               end if;
-            end loop;
-         end loop;
-      elsif numCarre=7 then
-         for l in 7..9 loop
-            for c in 1..3 loop
-               if g(l, c) /= 0 then
-                  ajouterChiffre(e, g(l, c));
-               end if;
-            end loop;
-         end loop;
-      elsif numCarre=8 then
-         for l in 7..9 loop
-            for c in 4..6 loop
-               if g(l, c) /= 0 then
-                  ajouterChiffre(e, g(l, c));
-               end if;
-            end loop;
-         end loop;
-      elsif numCarre=9 then
-         for l in 7..9 loop
-            for c in 7..9 loop
-               if g(l, c) /= 0 then
-                  ajouterChiffre(e, g(l, c));
-               end if;
-            end loop;
-         end loop;
-      end if;
+      end loop;
       return e;
    end obtenirChiffresDUnCarre;
-
 end grilleSudoku;

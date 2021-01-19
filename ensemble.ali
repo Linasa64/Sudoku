@@ -1,0 +1,67 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U ensemble%b		ensemble.adb		187a089c NE OO PK IL
+Z ada.exceptions%s	a-except.adb		a-except.ali
+
+U ensemble%s		ensemble.ads		7c6160ef EE OO PK IL
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D ensemble.ads		20180112142500 7c6160ef ensemble%s
+D ensemble.adb		20210118182916 641b6873 ensemble%b
+D system.ads		20200819050648 32a08138 system%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+G a e
+G c Z s b [construireensemble ensemble 9 13 none]
+G c Z s b [ensemblevide ensemble 12 13 none]
+G c Z s b [appartientchiffre ensemble 15 13 none]
+G c Z s b [nombrechiffres ensemble 19 13 none]
+G c Z s b [ajouterchiffre ensemble 24 14 none]
+G c Z s b [retirerchiffre ensemble 29 14 none]
+G c Z s s [Ttype_ensembleBIP ensemble 32 4 none]
+X 4 ensemble.ads
+1K9*ensemble 32E9 34l5 34e13 5|2b14 91l5 91t13
+3X4*APPARTIENT_ENSEMBLE 5|72r19
+4X4*NON_APPARTIENT_ENSEMBLE 5|85r19
+6A9*Type_Ensemble(boolean) 9r39 12r34 16r14 19r36 24r41 29r41 32c9 5|8r39
+. 9r9 21r34 23r16 39r14 54r36 69r41 82r41
+9V13*construireEnsemble{6A9} 5|8b13 15l8 15t26 25s16
+12V13*ensembleVide{boolean} 12>27 5|21b13 32l8 32t20
+12a27 e{6A9} 5|21b27 26r10
+15V13*appartientChiffre{boolean} 16>7 16>29 5|38b13 48l8 48t25 71s13 84s17
+16a7 e{6A9} 5|39b7 43r17
+16i29 v{integer} 5|39b29 42r10 42r19 43r19
+19V13*nombreChiffres{integer} 19>29 5|54b13 63l8 63t22
+19a29 e{6A9} 5|54b29 58r13
+24U14*ajouterChiffre 24=30 24>56 5|69b14 76l8 76t22
+24a30 e{6A9} 5|69b30 71r31 74m13
+24i56 v{integer} 5|69b56 71r34 73r16 73r25 74r15
+29U14*retirerChiffre 29=30 29>56 5|82b14 89l8 89t22
+29a30 e{6A9} 5|82b30 84r35 87m13
+29i56 v{integer} 5|82b56 84r38 86r16 86r25 87r15
+X 5 ensemble.adb
+9a7 e{4|6A9} 12m10 14r14
+11i11 i{integer} 12r12
+22b7 b{boolean} 27m10 29m10 31r14
+23a7 estVide{4|6A9} 25m7 26r12
+55i7 n{integer} 59m13 59r16 62r14
+57i11 i{integer} 58r15
+

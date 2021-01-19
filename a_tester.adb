@@ -693,7 +693,7 @@ package body a_tester is
    end test_Grille_P12;
 
    -- FixerChifre
-   -- modifie la carre correspondante
+   -- modifie le carre correspondante
    function test_Grille_P13 return Boolean is
       g : Type_Grille;
       c : Type_Coordonnee;
@@ -701,7 +701,7 @@ package body a_tester is
    begin
       g := construireGrille;
       c := construireCoordonnees (9,9);
-      fixerChiffre(g,c,8);
+      fixerChiffre(g, c, 8);
       carre := obtenirChiffresDUnCarre(g, obtenirCarre(c));
       return appartientChiffre(carre,8);
    end test_Grille_P13;

@@ -1,0 +1,26 @@
+[GENERATED OBJECT FILE]
+b__run_all_tests.o
+[PROJECT FILES]
+C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\sudoku.gpr
+20210118130900 7325173951ae4daf5024e1dde27a5b5c
+[BOUND OBJECT FILES]
+C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\coordonnee.o
+C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\ensemble.o
+C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\grillesudoku.o
+C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\affichage.o
+C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\remplirGrille.o
+C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\resolutions.o
+C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\a_tester.o
+C:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\run_all_tests.o
+[GENERATED SOURCE FILES]
+b__run_all_tests.ads
+b__run_all_tests.adb
+b__run_all_tests.ali
+[RESULTING OPTIONS]
+-LC:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\
+-LC:\Users\linab\OneDrive\M1103_TP\SUDOKU\Sudoku\
+-LC:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

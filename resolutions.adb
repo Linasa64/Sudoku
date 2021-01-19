@@ -11,7 +11,7 @@ package body resolutions is
    begin
       if not caseVide(g, c ) then
          raise CASE_NON_VIDE;
-      elsif not appartientChiffre(obtenirChiffresDUneLigne(g, v), v) AND not appartientChiffre(obtenirChiffresDUneColonne(g, v), v) AND not appartientChiffre(obtenirChiffresDUnCarre(g, v), v) then
+      elsif not appartientChiffre(obtenirChiffresDUneLigne(g, obtenirLigne(c)), v) OR not appartientChiffre(obtenirChiffresDUneColonne(g, obtenirLigne(c)), v) OR not appartientChiffre(obtenirChiffresDUnCarre(g, obtenirLigne(c)), v) then
          return true;
       else
          return false;
@@ -25,20 +25,31 @@ package body resolutions is
    function obtenirSolutionsPossibles
      (g : in Type_Grille; c : in Type_Coordonnee) return Type_Ensemble
    is
-      e: Type_Ensemble;
-      i: Integer := 1;
+      ligne : Type_Ensemble;
+      colonne : Type_Ensemble;
+      carre : Type_Ensemble;
+      e : Type_Ensemble;
    begin
       if not caseVide(g, c) then
          raise CASE_NON_VIDE;
-      else
-         e:=construireEnsemble;
-         for i in 1..9 loop
-            if estChiffreValable(g, i, c) then
-              ajouterChiffre(e, i);
-            end if;
-         end loop;
       end if;
+
+      e := construireEnsemble;
+
+      colonne := obtenirChiffresDUneColonne(g, obtenirColonne(c));
+      ligne := obtenirChiffresDUneLigne(g, obtenirLigne(c));
+      carre := obtenirChiffresDUnCarre(g, obtenirCarre(c));
+
+      for i in Integer range 1..9 loop
+         if not appartientChiffre(ligne, i) AND not appartientChiffre(colonne, i) AND not appartientChiffre(carre, i) then
+            if appartientChiffre(e, I) = false then
+               ajouterChiffre(e, i);
+            end if;
+         end if;
+      end loop;
+
       return e;
+
    end obtenirSolutionsPossibles;
 
    ------------------------------------------
@@ -49,20 +60,18 @@ package body resolutions is
      (resultats : in Type_Ensemble) return Integer
    is
       n:Integer:=0;
-      sol: Integer;
    begin
-      for i in 1..9 loop
-         if appartientChiffre(resultats, i) then
-            n:= n+1;
-            sol:=i;
-         end if;
-      end loop;
-      if n=0 then
-         raise ENSEMBLE_VIDE;
-      elsif n>1 then
+      if nombreChiffres(resultats)>1 then
          raise PLUS_DE_UN_CHIFFRE;
+      elsif nombreChiffres(resultats)=0 then
+         raise ENSEMBLE_VIDE;
       else
-         return sol;
+         for i in 1..9 loop
+            if appartientChiffre(resultats, i) then
+               return i;
+            end if;
+         end loop;
+         return 0;
       end if;
    end rechercherSolutionUniqueDansEnsemble;
 
@@ -71,23 +80,29 @@ package body resolutions is
    --------------------
 
    procedure resoudreSudoku (g : in out Type_Grille; trouve : out Boolean) is
+      solPossibles: Type_Ensemble;
+      solUnique: Integer;
    begin
-      while not estRemplie(g) loop
+      trouve:=false;
+
+      while not trouve loop
          for l in 1..9 loop
             for c in 1..9 loop
-               if not caseVide(g, construireCoordonnees(l,c)) then
-                  null;
-               else
-                  fixerChiffre(g, construireCoordonnees(l,c), rechercherSolutionUniqueDansEnsemble(obtenirSolutionsPossibles(g, construireCoordonnees(l,c))));
+               if caseVide(g, construireCoordonnees(l,c)) then
+                  solPossibles := obtenirSolutionsPossibles(g, construireCoordonnees(l, c));
+                  if nombreChiffres(solPossibles) = 1 then
+                     solUnique := rechercherSolutionUniqueDansEnsemble(solPossibles);
+                     if estChiffreValable(g, solUnique, construireCoordonnees(l, c)) then
+                        fixerChiffre(g, construireCoordonnees(l, c), solUnique);
+                     end if;
+                  end if;
                end if;
             end loop;
          end loop;
+            if estRemplie(g) then
+               trouve:=True;
+            end if;
       end loop;
-      if estRemplie(g) then
-         trouve:=True;
-      else
-         trouve := false;
-      end if;
    end resoudreSudoku;
 
 end resolutions;
